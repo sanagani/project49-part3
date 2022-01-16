@@ -1,0 +1,40 @@
+
+h1 {color: brown;}
+/**{border: solid;}*/
+
+.header{
+   background-color:rgb(78, 178, 222);
+   justify-content:center;
+   display:flex;
+}
+
+.grid{
+   justify-content:space-evenly;
+   display:flex;
+   flex-wrap:wrap;
+}
+
+.footer{
+   background-color:royalblue;
+   display:flex;
+   justify-content:center;
+}
+
+.description{
+   display:flex;
+}
+
+p,h2{
+   text-align:center;
+   flex-direction:column;
+   justify-content:center;
+}
+
+body{
+   background-color:#545bc1;
+   margin:30pt;
+   font-style:normal;
+   border:solid;
+   border-color:rgb(200, 200, 19);
+   border-width: 10pt;
+}
